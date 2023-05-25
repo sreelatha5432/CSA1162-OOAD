@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2023-05-23T08:55:46" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.10</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="HCKE0N514KFq" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="P1VcXlbjgRUQ" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="qKWdqAo44L9E" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="T4oc4AgCbn0T" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="9MucOOU2FgLJ" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="sYQaBSMvPh8S" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="48bk4LI0LWWq" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="dv6XWntJVhfE" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="XgPV4Pn7LCtc" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ju4dF0ToSLD9" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="jft4MvIGuDrS" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="9n2tbb4ydbTW" name="customer">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="46Z8aYH8T1mG" name="jewllery details"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="yFFZqqA1M03s" name="update in billing "/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="NVjKg18LH87J" name="admin">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="XSmr39Y7BCql" name="customer details"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="dvMnJiUaSm6K" name="select jewellery"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="j7Kl3CAb33Wi" name="take jewellery"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="LiOWlEH4NReT" name="make payment"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="rSGjJ8fv1pna" name="request payment mode"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="WVlDkQXXy7sP" name="manager">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="JPagyf3C7qvT" name="updste purchase details"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="yARv2A6qMq6q" name="request payment "/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="sAXBCyfPzo7r" name="request payment"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="cSextAaz7oiE" name="update purchase details"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="bwZ1SmsBdj3D" name="update billing and payment details"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="BjjsOeQIgKQZ" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="jewellery shop management" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="589" canvaswidth="791" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="112" xmi.id="1lGKpRVS0Ghv" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-1348" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="g7iAOo5tnzAR" width="84" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="9n2tbb4ydbTW" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-983" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="K0lNOPRm6Q1l" width="62" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="NVjKg18LH87J" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-637" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="9gHvBMknLWc7" width="80" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="WVlDkQXXy7sP" height="27" drawasactor="0"/>
+         <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-1181.68" showstereotype="1" y="451.607" text="accept payment" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="b4AwsanFZU5n" pretext="" role="700" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="IrJSumajatCB" height="19"/>
+         <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-822.5" showstereotype="1" y="404.929" text="accept payment" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="bLoaOatd895m" pretext="" role="700" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="9b9GbPIgz6uP" height="19"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="K0lNOPRm6Q1l" textid="KJr2ImHOwjpJ" operation="upload jewellery details" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-951" showstereotype="1" y="167" widgetaid="9gHvBMknLWc7" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="NUlzJrApKTAZ" width="353" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="LD2fhwkqmnzY" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-800" showstereotype="1" y="148" text="upload jewellery details" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="OAhi7DoZfgrP" pretext="" role="704" width="137" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="KJr2ImHOwjpJ" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="K0lNOPRm6Q1l" textid="WOwl3h0YrEdK" operation="XSmr39Y7BCql" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1305" showstereotype="1" y="138" widgetaid="g7iAOo5tnzAR" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="4dHs1aqgeBBb" width="352" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="XSmr39Y7BCql" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1171" showstereotype="1" y="119" text="customer details()" font="Sans Serif,8,-1,0,50,0,0,0,0,0" localid="m6IVrFtvO84Y" pretext="" role="704" width="108" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="WOwl3h0YrEdK" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="g7iAOo5tnzAR" textid="R6nYQfE23DwY" operation="46Z8aYH8T1mG" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1305" showstereotype="1" y="199" widgetaid="K0lNOPRm6Q1l" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="5jvoV8LDy44M" width="352" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="46Z8aYH8T1mG" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1172" showstereotype="1" y="180" text="jewllery details()" font="Sans Serif,8,-1,0,50,0,0,0,0,0" localid="aD5AJyy2TYIc" pretext="" role="704" width="97" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="R6nYQfE23DwY" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="K0lNOPRm6Q1l" textid="cIKjnVhfZRUq" operation="dvMnJiUaSm6K" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1305" showstereotype="1" y="249" widgetaid="g7iAOo5tnzAR" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="isRkUrWk1kxa" width="352" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="dvMnJiUaSm6K" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1168" showstereotype="1" y="230" text="select jewellery()" font="Sans Serif,8,-1,0,50,0,0,0,0,0" localid="rgxLkUNnhZLY" pretext="" role="704" width="100" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="cIKjnVhfZRUq" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9gHvBMknLWc7" textid="JMrXG82HqWmE" operation="cSextAaz7oiE" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-951" showstereotype="1" y="259" widgetaid="K0lNOPRm6Q1l" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="rSlQ8R1jOa5n" width="353" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="cSextAaz7oiE" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-836" showstereotype="1" y="240" text="update purchase details()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="kIzqpYcxQ3RB" pretext="" role="704" width="149" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="JMrXG82HqWmE" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="K0lNOPRm6Q1l" textid="I5jqzH4zQ3Rh" operation="j7Kl3CAb33Wi" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1305" showstereotype="1" y="588" widgetaid="g7iAOo5tnzAR" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="QqTlngV6N4qA" width="352" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="j7Kl3CAb33Wi" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1174" showstereotype="1" y="569" text="take jewellery()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="76u0OdblmMtL" pretext="" role="704" width="90" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="I5jqzH4zQ3Rh" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="g7iAOo5tnzAR" textid="6jJRdB5jQkVE" operation="yFFZqqA1M03s" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1305" showstereotype="1" y="528" widgetaid="K0lNOPRm6Q1l" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="lqMJ5F1KOFqu" width="352" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="yFFZqqA1M03s" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1182" showstereotype="1" y="509" text="update in billing ()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="bOSdkbX8NTzU" pretext="" role="704" width="106" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="6jJRdB5jQkVE" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9gHvBMknLWc7" textid="b0lSLGPY22fY" operation="sAXBCyfPzo7r" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-952" showstereotype="1" y="369.565" widgetaid="K0lNOPRm6Q1l" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="EZWPMVvJceAw" width="363" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="sAXBCyfPzo7r" height="63" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-829" showstereotype="1" y="350" text="request payment()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="gtDWWOUaCOn1" pretext="" role="704" width="108" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="b0lSLGPY22fY" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="K0lNOPRm6Q1l" textid="AMAOcUN0msag" operation="rSGjJ8fv1pna" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-1306" showstereotype="1" y="346" widgetaid="g7iAOo5tnzAR" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="DVKRlBtXkwP0" width="362" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="rSGjJ8fv1pna" height="130" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-1175" showstereotype="1" y="327" text="request payment mode()" font="Sans Serif,8,-1,0,50,0,0,0,0,0" localid="M0fvwiUOtyRB" pretext="" role="704" width="143" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="AMAOcUN0msag" height="19"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9gHvBMknLWc7" textid="Zdf4qr0762IB" operation="bwZ1SmsBdj3D" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-951" showstereotype="1" y="566" widgetaid="K0lNOPRm6Q1l" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="cEwY2puqDJiA" width="353" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="bwZ1SmsBdj3D" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-863" showstereotype="1" y="550" text="update billing and payment details()" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="AgkQ3CFwI2BL" pretext="" role="704" width="213" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Zdf4qr0762IB" height="20"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="1lGKpRVS0Ghv" uniqueid="9b9GbPIgz6uP" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="1" type="813" id="NVjKg18LH87J">
+      <listitem open="0" type="815" id="XSmr39Y7BCql"/>
+      <listitem open="0" type="815" id="LiOWlEH4NReT"/>
+      <listitem open="0" type="815" id="rSGjJ8fv1pna"/>
+      <listitem open="0" type="815" id="dvMnJiUaSm6K"/>
+      <listitem open="0" type="815" id="j7Kl3CAb33Wi"/>
+     </listitem>
+     <listitem open="0" type="807" id="BjjsOeQIgKQZ" label="class diagram"/>
+     <listitem open="1" type="813" id="9n2tbb4ydbTW">
+      <listitem open="0" type="815" id="46Z8aYH8T1mG"/>
+      <listitem open="0" type="815" id="yFFZqqA1M03s"/>
+     </listitem>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="qKWdqAo44L9E"/>
+      <listitem open="1" type="829" id="P1VcXlbjgRUQ"/>
+      <listitem open="1" type="829" id="9MucOOU2FgLJ"/>
+      <listitem open="1" type="829" id="T4oc4AgCbn0T"/>
+      <listitem open="1" type="829" id="HCKE0N514KFq"/>
+      <listitem open="1" type="829" id="48bk4LI0LWWq"/>
+      <listitem open="1" type="829" id="sYQaBSMvPh8S"/>
+      <listitem open="1" type="829" id="jft4MvIGuDrS"/>
+      <listitem open="1" type="829" id="dv6XWntJVhfE"/>
+      <listitem open="1" type="829" id="ju4dF0ToSLD9"/>
+      <listitem open="1" type="829" id="XgPV4Pn7LCtc"/>
+     </listitem>
+     <listitem open="0" type="810" id="1lGKpRVS0Ghv" label="jewellery shop management"/>
+     <listitem open="1" type="813" id="WVlDkQXXy7sP">
+      <listitem open="0" type="815" id="yARv2A6qMq6q"/>
+      <listitem open="0" type="815" id="sAXBCyfPzo7r"/>
+      <listitem open="0" type="815" id="bwZ1SmsBdj3D"/>
+      <listitem open="0" type="815" id="cSextAaz7oiE"/>
+      <listitem open="0" type="815" id="JPagyf3C7qvT"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
